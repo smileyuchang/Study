@@ -1,0 +1,5 @@
+# Project exclude paths
+/renren-admin/target/
+/renren-common/target/
+/renren-dynamic-datasource/target/
+/renren-generator/target/
