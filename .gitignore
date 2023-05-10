@@ -1,5 +1,38 @@
-# Project exclude paths
-/renren-admin/target/
-/renren-common/target/
-/renren-dynamic-datasource/target/
-/renren-generator/target/
+# 忽略IDE生成的文件和目录
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# 忽略编译输出目录
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+
+# 忽略日志文件
+*.log
+log/
+
+# 忽略临时文件和备份文件
+*~
+*.swp
+*.bak
+
+# 忽略本地配置文件
+/application.yml
+/application.properties
+
+# 忽略Spring Boot DevTools重启文件
+/.restart
+
+# 忽略本地数据库文件
+/h2*.db
+
+# 忽略Maven构建相关文件
+mvnw
+mvnw.cmd
+
+*.class
+
